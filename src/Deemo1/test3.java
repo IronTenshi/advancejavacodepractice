@@ -8,6 +8,6 @@ public class test3 {
 		sj.add("aaa").add("bbb");
 		String scString = sj.toString();
 		System.out.println(scString);
-		
+		System.out.println(sj.length());
 	}
 }
