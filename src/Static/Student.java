@@ -36,7 +36,7 @@ public class Student {
 	}
 	public void setTechername(String teacherName)
 	{
-		Student.teacherName = teacherName;
+		this.teacherName = teacherName;
 	}
 	public void displayTecher()
 	{

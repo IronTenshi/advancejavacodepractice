@@ -8,6 +8,6 @@ public class test1 {
 		s1.setTechername("sdsd");
 		s1.display();
 		s2.display();
-		s2.displayTecher();
+		s2.displayTecher();//static is special memory;
 	}
 }
