@@ -9,6 +9,7 @@ public class test5 {
 		Scanner scanner = new Scanner(System.in);
 		String str = sb.append(scanner.next()).toString();
 		System.out.println(sb.capacity());
+		System.out.println(sb.length());
 		System.out.println(str.length());
 		scanner.close();
 		
@@ -20,5 +21,7 @@ public class test5 {
 		
 		String str2 = sj.toString();
 		System.out.println(str2);
+		
+		System.out.println(str.substring(3));//substirng为截取
 	}
 }
