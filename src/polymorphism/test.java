@@ -10,14 +10,26 @@ public class test {
 		
 		register(s1);
 		
-		if(s1 instanceof Student)
-		{
-			Student s = (Student)s1;
-			s.display();
-		}
-		else
+//		if(s1 instanceof Student)
+//		{
+//			Student s = (Student)s1;
+//			s.display();
+//		}
+//		else
+//		{
+//			s1.display();
+//		}
+		
+		if (s1 instanceof Student d)
 		{
 			s1.display();
+		}
+		else if (s1 instanceof Person)
+		{
+			s1.display();
+		}
+		else {
+			System.out.println("error");
 		}
 	}
 	public static void register(Person s)
