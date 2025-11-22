@@ -19,7 +19,7 @@ public class test {
 //		{
 //			s1.display();
 //		}
-		
+		//jdk 14 +
 		if (s1 instanceof Student d)
 		{
 			s1.display();
