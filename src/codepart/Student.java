@@ -3,6 +3,11 @@ package codepart;
 public class Student {
 	private String name;
 	private int age;
+	
+	static
+	{
+		System.out.println("static initial");
+	}
 	public String getName() {
 		return name;
 	}
@@ -19,6 +24,10 @@ public class Student {
 		System.out.println("creating");
 		this.name = name;
 		this.age = age;
+	}
+	public Student()
+	{
+		
 	}
 	public void display()
 	{
