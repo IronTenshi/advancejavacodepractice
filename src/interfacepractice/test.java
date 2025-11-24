@@ -18,5 +18,6 @@ public class test {
 			frog.action();
 			frog.swim();
 		}
+		System.out.println(Swim.sbString);
 	}
 }
