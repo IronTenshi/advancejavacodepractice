@@ -52,5 +52,12 @@ public class Student {
 		this.engScore = engScore;
 		this.poScore = poScore;
 	}
-	
+	@Override
+	public String toString() {
+		return nameString + "\t" + age + "\t" + classsString + "\t" + mathScore + "\t"
+				+ engScore + "\t" + poScore;
+	}
+	public int gettotalScore() {
+		return engScore + mathScore + poScore;
+	}
 }
