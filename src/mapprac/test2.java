@@ -13,7 +13,7 @@ public class test2 {
 		hashtable.put("bbbb", "2222");
 		hashtable.put("cccc", "3333");
 //		System.out.println(hashtable.get("bbbb"));
-		Set<String> keySet = hashtable.keySet();
+//		Set<String> keySet = hashtable.keySet();
 //		for (String key : keySet) {
 //			String valueString = hashtable.get(key);
 //			System.out.println(valueString);	
@@ -22,12 +22,16 @@ public class test2 {
 //		while (iterator.hasNext()) {
 //			System.out.println(hashtable.get(iterator.next()));
 //		}
-		keySet.forEach(t -> System.out.println(hashtable.get(t)));
-		keySet.forEach(new Consumer<String>() {
-			@Override
-			public void accept(String t) {
-				System.out.println(hashtable.get(t));
-			};
-		});
+//		keySet.forEach(t -> System.out.println(hashtable.get(t)));
+//		keySet.forEach(new Consumer<String>() {
+//			@Override
+//			public void accept(String t) {
+//				System.out.println(hashtable.get(t));
+//			};
+//		});
+		
+		
+		Set<Map.Entry<String, String>> set = hashtable.entrySet();
+		for ()
 	}
 }
