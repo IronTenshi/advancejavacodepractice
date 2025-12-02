@@ -3,6 +3,7 @@ package mapprac;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.function.Consumer;
 
@@ -32,6 +33,8 @@ public class test2 {
 		
 		
 		Set<Map.Entry<String, String>> set = hashtable.entrySet();
-		for ()
+		for (Entry<String, String> sEntry : set) {
+			System.out.println(sEntry);
+		}
 	}
 }
